@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import '../index.css'
 
 const Task = ({ task: { id, title, state }, onArchiveTask, onPinTask }) => {
     return (

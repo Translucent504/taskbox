@@ -1,5 +1,6 @@
 import React from 'react'
 import Task from './Task'
+import '../index.css'
 
 const TaskList = ({ loading, tasks, onPinTask, onArchiveTask }) => {
     const events = {

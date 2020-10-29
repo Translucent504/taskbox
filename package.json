@@ -47,5 +47,12 @@
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1",
     "react-test-renderer": "^16.13.1"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.21"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
